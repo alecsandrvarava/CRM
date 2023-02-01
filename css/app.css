@@ -854,7 +854,8 @@ input {
   left: 10px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  z-index: 10;
+  z-index: 0;
+  pointer-events: none;
 }
 .body__heading-names {
   width: 100%;
